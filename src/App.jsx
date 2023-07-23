@@ -1,11 +1,17 @@
 import './App.css'
 
+import Menu from "./componentes/navmenu";
+import Header from './componentes/header';
+
 function App() {
 
   return (
     
-    <div>
+    <div className='divapp'>
       
+      <Header />
+      <Menu />
+
     </div>
       
   )
