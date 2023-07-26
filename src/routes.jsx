@@ -1,13 +1,15 @@
 import { Routes, Route } from 'react-router-dom'
 
-import Receita from './componentes/Pages/receita';
+import Entrada from './componentes/Pages/entrada';
+import Saida from './componentes/Pages/saida';
 
 function RoutesApp(){
     return(
 
         <Routes>
 
-            <Route path='/receita' element={ <Receita/> }/>
+            <Route path='/entrada' element={ <Entrada/> }/>
+            <Route path='/saida' element={ <Saida/> }/> 
 
         </Routes>
 

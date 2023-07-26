@@ -1,5 +1,15 @@
-.container{
-    background-color: #252E50;
-    height: 100%;
-    width: 18em;
+.container {
+  background-color: #252e50;
+  height: 100%;
+  width: 18em;
+  display: flex;
+  flex-direction: column;
+}
+
+.container a {
+  display: block;
+  margin-bottom: 2px;
+  margin-top: 8px;
+  text-decoration: none;
+  color: #d9d9d9;
 }
