@@ -5,8 +5,10 @@ import { Link } from "react-router-dom";
 function Menu() {
   return (
     <div className="container">
-      <Link to="/entrada">Entrada</Link>
-      <Link to="/saida">Saida</Link>
+      <Link to="/carteira">Minha Carteira</Link>
+      <Link to="/entrada">Entradas</Link>
+      <Link to="/saida">Saidas</Link>
+      <Link to="/objetivo">Meus Objetivos</Link>
     </div>
   );
 }
