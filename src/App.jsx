@@ -9,10 +9,12 @@ import RoutesApp from "./routes";
 function App() {
   return (
     <BrowserRouter>
-      <RoutesApp />
-      <div className="divapp">
+      <div>
         <Header />
+      </div>
+      <div className="divapp">
         <Menu />
+        <RoutesApp />
       </div>
     </BrowserRouter>
   );
