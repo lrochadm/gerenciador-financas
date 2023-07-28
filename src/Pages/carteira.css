@@ -1,0 +1,25 @@
+.content-container {
+  display: flex;
+}
+
+.content-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  width: 25vw;
+  height: 25vh;
+  margin: auto;
+  margin-right: 2px;
+}
+
+.content-item:last-child {
+  margin-right: 28px;
+}
+
+p {
+  color: #252e50;
+  font-size: xx-large;
+  margin-top: 67px;
+}

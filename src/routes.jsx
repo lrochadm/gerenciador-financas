@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom'
 
-import Entrada from './componentes/Pages/entrada';
-import Saida from './componentes/Pages/saida';
-import Carteira from './componentes/Pages/carteira';
-import Objetivo from './componentes/Pages/objetivo';
+import Entrada from './Pages/entrada';
+import Saida from './Pages/saida';
+import Carteira from './Pages/carteira';
+import Objetivo from './Pages/objetivo';
 
 function RoutesApp(){
     return(
@@ -17,7 +17,7 @@ function RoutesApp(){
 
         </Routes>
 
-    )
-}
+    );
+};
 
 export default RoutesApp;
