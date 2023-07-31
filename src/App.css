@@ -20,9 +20,10 @@
 
 .content-title {
   display: flex;
-  width: 100%;
+  width: 98%;
   padding-top: 20px;
-  padding-right: 50px;
+  padding-right: 26px;
+  margin-left: 24px;
   justify-content: space-between;
 }
 

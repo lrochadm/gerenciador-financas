@@ -1,0 +1,25 @@
+.list-entrada {
+  width: 96%;
+  margin-left: 24px;
+  display: block;
+  margin-top: 2.5%;
+  background-color: #d9d9d9;
+  text-align: left;
+}
+
+.list-entrada td{
+    padding-top: 10px;
+}
+.list-entrada th,
+td {
+  color: #252e50;
+  width: 1000px;
+}
+
+.list-entrada tr:nth-child(odd) {
+  background-color: #d9d9d9;
+}
+
+.list-entrada tr:nth-child(even) {
+  background-color: gray;
+}

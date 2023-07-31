@@ -1,0 +1,27 @@
+.list-saida {
+  width: 96%;
+  margin-left: 24px;
+  display: block;
+  margin-top: 2.5%;
+  background-color: #d9d9d9;
+  text-align: left;
+}
+
+.list-saida td{
+    padding-top: 10px;
+}
+
+.list-saida th,
+td {
+  color: #252e50;
+  width: 1000px;
+}
+
+.list-saida tr:nth-child(odd) {
+  background-color: #d9d9d9;
+}
+
+.list-saida tr:nth-child(even) {
+  background-color: gray;
+}
+

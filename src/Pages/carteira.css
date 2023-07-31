@@ -23,3 +23,7 @@ p {
   font-size: xx-large;
   margin-top: 67px;
 }
+
+.content-name h2 {
+  margin-top: 300 px;
+}
