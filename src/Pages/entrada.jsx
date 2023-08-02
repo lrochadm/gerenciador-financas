@@ -1,11 +1,37 @@
 import "./entrada.css";
+import { useState, useEffect } from "react";
+
+const arrayTemp = [
+  {
+  descricao:"Salário",
+  data:"05/07",
+  valor:3500.5
+
+},
+{
+  descricao:"Match",
+  data:"05/08",
+  valor:3200
+
+},
+{
+  descricao:"Salário",
+  data:"05/09",
+  valor:3500.9
+}]
 
 function Entrada() {
+  const [entradas,setEntradas] = useState([])
+
+  useEffect(() =>{
+    setEntradas(arrayTemp)
+  });
+
   return (
     <div className="page-container">
       <div className="content-title">
         <h2>Entradas</h2>
-        <button type="submit">Adicionar Entrada</button>
+        <button>Adicionar Entrada</button>
       </div>
       <div className="list-entrada">
         <table>
@@ -17,26 +43,15 @@ function Entrada() {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Salário</td>
-              <td>05/07</td>
-              <td>3.000,00</td>
-            </tr>
-            <tr>
-              <td>Salário</td>
-              <td>05/07</td>
-              <td>3.000,00</td>
-            </tr>
-            <tr>
-              <td>Salário</td>
-              <td>05/07</td>
-              <td>3.000,00</td>
-            </tr>
-            <tr>
-              <td>Salário</td>
-              <td>05/07</td>
-              <td>3.000,00</td>
-            </tr>
+            {
+              entradas.map((item, index) => (
+                <tr key={index}>
+                  <td>{item.descricao}</td>
+                  <td>{item.data}</td>
+                  <td>{item.valor}</td>
+                </tr>
+              ))
+            }
           </tbody>
         </table>
       </div>
